@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-around">
         <h3 className="logo font-heading">Hamid</h3>
         <ul className="space-x-3 hidden md:flex">
-          <NavLink to="/home">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/services">Services</NavLink>

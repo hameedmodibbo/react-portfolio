@@ -1,6 +1,10 @@
-const AboutPage = function(){
-return (
-    <h1>About page</h1>
-)
-}
+import AboutHero from "../components/AboutHero.jsx";
+
+const AboutPage = function () {
+  return (
+    <div>
+      <AboutHero />
+    </div>
+  );
+};
 export default AboutPage;

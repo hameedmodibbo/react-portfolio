@@ -5,7 +5,7 @@ import HomeServices from "../components/HomeServices.jsx";
  
 const HomePage = () => {
   return (
-    <main class="grow flex flex-col items-center w-full">
+    <main className="grow flex flex-col items-center w-full">
       <HomeHero />
       <HomeAbout />
       <HomeProjects />

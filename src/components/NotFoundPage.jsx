@@ -6,7 +6,7 @@ const NotFoundPage = function () {
       <p className="text-highlight">
         The page you requested for does not exist
       </p>
-      <Link to="/home" className="py-2 px-4 bg-gray-600">
+      <Link to="/" className="py-2 px-4 bg-gray-600">
         Go back
       </Link>
     </section>
